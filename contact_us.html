@@ -4,16 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <style>
+        h1{
+            color:rgb(98, 98, 181);
+        }
+        h2{
+            color: crimson;
+            text-decoration: overline;
+        }
+        h1, h2, h3, h4, h5, h6{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        p, li{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
 </head>
-<body>
-    <a href="index.html">Home</a>
-    <a href="about_us.html">About Us</a>
-    <a href="contact_us.html">Contact Us</a>
-
-    <h1>Contact Us</h1>
+<body>  
+    <header>
+        <div id="banner">
+            <p>Notification</p>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        
     <hr/>
+    <article>
+        <h1>Contact Us</h1>
+        <table>
+        <tr>
+            <th>Logo</th>
+            <th>Location</th>
+            <th>Opening Hours</th>
+            <th>Email Adress</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="logo 1" />
+            </td>
+            <td>Mandeville</td>
+            <td>9am - 5pm</td>
+            <td>mandevillebranch@preservation.com</td>
+            <td>5673012323</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="logo 1" />
+            </td>
+            <td>Kingston</td>
+            <td>9am - 5pm</td>
+            <td>kingstonbranch@preservatio n.com</td>
+            <td>5673012323</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="logo 1" />
+            </td>
+            <td>Montego Bay</td>
+            <td>9am - 5pm</td>
+            <td>mobaybranch@preservation.com</td>
+            <td>5673012323</td>
+        </tr>
+    </table>
+    </article>
 
-    <h2>Location</h2>
+    <article>
+        <h2>Location</h2>
     <table>
         <tr>
             <th>Logo</th>
@@ -66,7 +129,17 @@
         <textarea cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry"></textarea>
 
         <input type="submit" />
-
     </form>
+    </article>
+    
+    </main>
+
+    <footer>
+        <br/><br/>
+            <a href="https://www.amazon.com">Amazon</a>
+
+            <a href="https://www.ebay.com" target="_blank">eBay</a>
+    </footer>
+    
 </body>
 </html>
