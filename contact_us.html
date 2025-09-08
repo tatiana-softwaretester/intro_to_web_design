@@ -114,7 +114,7 @@
         </tr>
     </table>
     <h2>General Inquiries</h2> 
-    <form action="confirmation.html">
+    <form action="confirmation.html" id="contactForm">
         <label for="fullname">Name: *</label><br/>
         <input required type="text" id="fullname" name="fullname" />
         <br/><br/>
@@ -127,8 +127,9 @@
         <br/><br/>
         <label for="inquiry">State your inquiry *</label><br/>
         <textarea cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry"></textarea>
-
+        <br/><br/>
         <input type="submit" />
+        <button tipe="button" onclick="ClearForm();">Clear</button>
     </form>
     </article>
     
@@ -140,6 +141,6 @@
 
             <a href="https://www.ebay.com" target="_blank">eBay</a>
     </footer>
-    
+    <script src="scripts/site.js"></script>
 </body>
 </html>
