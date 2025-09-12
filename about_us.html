@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="stylesheet/bootstrap.min.css" />
     <link rel="stylesheet" href="stylesheet/site.css" />   
 </head>
 <body>
     <header>
-        <div id="banner">
-            <p>Notification</p>
+            <div id="banner" class="bg-secondary text-white text-center">
+                <p>Notification</p>
+            </div>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Animal Protection</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="about_us.html">About Us</a>
+                <a class="nav-link" href="contact_us.html">Contact Us</a>
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+            </div>
         </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about_us.html">About Us</a>
-            <a href="contact_us.html">Contact Us</a>
         </nav>
     </header>
     
-    <main>
+    <main class="container">
         <h1>About Us</h1>
     <hr/>
 
@@ -30,25 +42,117 @@
 
     <article>
         <h2>Daly Tasks</h2>
-    <ul>
-        <li>We patrol preservation</li>
-        <li>We police</li>
-        <li>We protect</li>
-        <li>We rescue</li>
-    </ul>
+        <div class="row">
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">We patrol</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima explicabo quod quia consequatur illo deserunt, nam nulla eos dicta? Sunt maxime adipisci ad officia labore quia expedita! Distinctio, neque asperiores!</p>
+                <a href="contact_us.html" class="btn btn-primary">Check Out Patrols</a>
+            </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">We police</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum perferendis dolor ipsum amet totam vel, praesentium optio delectus esse minus eos fugiat aperiam repudiandae consequatur harum laudantium saepe sapiente. Ex!</p>
+                <a href="contact_us.html" class="btn btn-primary">Go Police</a>
+            </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">We protect</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dicta, doloribus aperiam accusamus veniam enim eius omnis tempore quidem sunt, fugit nemo veritatis ea deserunt dignissimos nesciunt explicabo, eum architecto.</p>
+                <a href="contact_us.html" class="btn btn-primary">Go Protect</a>
+            </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">We rescue</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus delectus soluta deleniti quasi. Atque repellat placeat voluptas dolore molestiae et commodi alias provident necessitatibus, nihil, quae, ea maxime consequatur voluptates!</p>
+                <a href="contact_us.html" class="btn btn-primary">Go Rescue</a>
+            </div>
+            </div>
+            </div>
+        </div>
+    
     </article>
     
     <article>
         <h2>How you can join</h2>
-    <ol>
-        <li>Call our recruitment center</li>
-        <li>Sent your resume</li>
-        <li>Attend Interview</li>
-        <li>Complete Training</li>
-        <li>
-            <a href="contact_us.html">Contact Centre Office</a>
-        </li>
-    </ol>
+        <div class="accordion" id="howToJoinAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Call our recruitment center
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea nulla voluptatum qui quam, odio ipsum ipsam possimus voluptates ut! Quam, inventore ad. Mollitia facere assumenda corporis est distinctio labore.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Sent your resume
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur nobis deleniti voluptatibus atque enim suscipit quod voluptatem. Recusandae vero, quaerat, voluptatem esse obcaecati neque est distinctio dolorum odio reprehenderit culpa?
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Attend Interview
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet beatae fuga harum, ad repellat exercitationem quo maiores odio aperiam odit impedit unde molestias cum tempore alias velit eaque! Veniam, fugiat.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+        Complete Training
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea nulla voluptatum qui quam, odio ipsum ipsam possimus voluptates ut! Quam, inventore ad. Mollitia facere assumenda corporis est distinctio labore.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+        Contact Centre Office
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea nulla voluptatum qui quam, odio ipsum ipsam possimus voluptates ut! Quam, inventore ad. Mollitia facere assumenda corporis est distinctio labore.
+            <a href="contact_us.html" class="btn btn-outline-secondary">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</div>
+    
     </article>
 
     
@@ -60,6 +164,8 @@
 
             <a href="https://www.ebay.com" target="_blank">eBay</a>
     </footer>
-    
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/site.js"></script>
 </body>
 </html>
